@@ -14,5 +14,12 @@ public class StringsInJava {
 
         String fullName = "Kushal Vardhan";
         System.out.println(fullName.length());
+
+
+        //Concatenation :--------->
+        String firstName ="Kushal";
+        String lastName = "Vardhan";
+        String Name = firstName+lastName;
+        System.out.println(Name);
     }
 }
