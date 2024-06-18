@@ -11,5 +11,8 @@ public class StringsInJava {
         Scanner sc = new Scanner(System.in);
         String  name = sc.nextLine();
         System.out.println(name);
+
+        String fullName = "Kushal Vardhan";
+        System.out.println(fullName.length());
     }
 }
