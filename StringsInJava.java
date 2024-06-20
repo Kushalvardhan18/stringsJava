@@ -22,7 +22,9 @@ public class StringsInJava {
         String Name = firstName+lastName;
         System.out.println(Name);
 
-        
-        System.out.println(fullName.charAt(1));
+        for (int i =0;i<Name.length();i++){
+            System.out.print(Name.charAt(i));
+
+        }
     }
 }
