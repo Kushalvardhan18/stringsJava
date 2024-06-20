@@ -21,5 +21,8 @@ public class StringsInJava {
         String lastName = "Vardhan";
         String Name = firstName+lastName;
         System.out.println(Name);
+
+        
+        System.out.println(fullName.charAt(1));
     }
 }
