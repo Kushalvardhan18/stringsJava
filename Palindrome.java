@@ -1,16 +1,16 @@
 public class Palindrome {
-    public static void check(String[] str){
-        int n = str.length;
-        for(int i =0;i<n/2;i++){
-            for(int j=n;j>0;j--){
-                if(str[i] == str[j]){
-
-                }
+    public static boolean isPalindrome(String str){
+        for(int i =0;i<str.length()/2;i++) {
+            int n = str.length();
+            if (str.charAt(i) != str.charAt(n - 1 - i)) {
+               return true;
             }
         }
+        return false;
     }
-    public static void main(String[] args){
-        String [] str = {"racecar","noon","madam"};
-        check(str);
+
+    public static void main(String[] args) {
+        String str = "noon";
+        System.out.println( isPalindrome(str));
     }
 }
