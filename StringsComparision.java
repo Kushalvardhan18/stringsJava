@@ -4,12 +4,20 @@ public class StringsComparision {
         String s2 = "Tony";
         String s3 = new String("Tony");
 // String with new keyword is not equal to the string created without new keyword.
-        if(s1 == s2){
-            System.out.println("Strings are equal");
-        }
-        else{
-            System.out.println("Strings are not equal");
-        }  if(s1 == s3){
+//        if(s1 == s2){
+//            System.out.println("Strings are equal");
+//        }
+//        else{
+//            System.out.println("Strings are not equal");
+//        }  if(s1 == s3){
+//            System.out.println("Strings are equal");
+//        }
+//        else{
+//            System.out.println("Strings are not equal");
+//        }
+
+
+        if(s1.equals( s2)){
             System.out.println("Strings are equal");
         }
         else{
