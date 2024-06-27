@@ -16,7 +16,9 @@ public class StringsComparision {
 //            System.out.println("Strings are not equal");
 //        }
 
-
+if(s1.equals(s2)){
+System.out.print("Strings are equal");
+}
         if(s1.equals( s2)){
             System.out.println("Strings are equal");
         }
