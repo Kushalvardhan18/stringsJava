@@ -21,7 +21,7 @@ public class Palindrome {
     }
 
     public static void main(String[] args) {
-        String str = "false";
+        String str = "Kushal";
         System.out.println( isPalindrome(str));
     }
 }
