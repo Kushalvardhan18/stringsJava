@@ -9,15 +9,13 @@ public class Palindrome {
 //        return false;
         StringBuilder sb = new StringBuilder();
         for(int i = str.length()-1;i>=0;i--){
-            int n = str.length();
-            sb.append(str.charAt(i));
+
+           sb.append(str.charAt(i));
         }
         String strNew = sb.toString();
 
-        if(strNew.equals(str)){
-            return true;
-        }
-        return false;
+        return strNew.equals(str);
+
     }
 
     public static void main(String[] args) {
