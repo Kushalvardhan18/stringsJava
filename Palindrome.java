@@ -1,25 +1,28 @@
 public class Palindrome {
-    public static boolean isPalindrome(String str){
-//        for(int i =0;i<str.length()/2;i++) {
-//            int n = str.length();
-//            if (str.charAt(i) != str.charAt(n - 1 - i)) {
-//               return true;
-//            }
-//        }
-//        return false;
+    public static boolean isPalindrome(String str) {
+        // Convert the input string to lowercase to make the palindrome check case-insensitive
+        str = str.toLowerCase();
+
+        // Initialize a StringBuilder instance
         StringBuilder sb = new StringBuilder();
-        for(int i = str.length()-1;i>=0;i--){
 
-           sb.append(str.charAt(i));
+        // Append characters in reverse order
+        for (int i = str.length() - 1; i >= 0; i--) {
+            sb.append(str.charAt(i));
         }
-        String strNew = sb.toString();
 
-        return strNew.equals(str);
+        // Convert StringBuilder to String
+        String reversedStr = sb.toString();
 
+        // Check if the reversed string is equal to the original string
+        return reversedStr.equals(str);
     }
 
     public static void main(String[] args) {
         String str = "Kushal";
-        System.out.println( isPalindrome(str));
+        System.out.println(isPalindrome(str));  // Output: false
+
+        String palindromeStr = "radar";
+        System.out.println(isPalindrome(palindromeStr));  // Output: true
     }
 }
