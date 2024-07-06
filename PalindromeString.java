@@ -4,7 +4,6 @@ public class PalindromeString {
         // Convert the input string to lowercase to make the palindrome check case-insensitive
         str = str.toLowerCase();
 
-        // Initialize a StringBuilder instance
         StringBuilder sb = new StringBuilder();
 
         // Append characters in reverse order
