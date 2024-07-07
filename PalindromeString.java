@@ -20,9 +20,9 @@ public class PalindromeString {
 
     public static void main(String[] args) {
         String str = "Kushal";
-        System.out.println(isPalindrome(str));  // Output: false
+        System.out.println(isPalindrome(str));
 
         String palindromeStr = "radar";
-        System.out.println(isPalindrome(palindromeStr));  // Output: true
+        System.out.println(isPalindrome(palindromeStr));  
     }
 }
