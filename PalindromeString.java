@@ -23,6 +23,6 @@ public class PalindromeString {
         System.out.println(isPalindrome(str));
 
         String palindromeStr = "radar";
-        System.out.println(isPalindrome(palindromeStr));  
+        System.out.println(isPalindrome(palindromeStr));
     }
 }
