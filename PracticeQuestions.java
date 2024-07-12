@@ -11,11 +11,22 @@ public class PracticeQuestions {
         return count;
     }
     public static void isAnagram(){
-        
+
+    }
+    public static void countWords(String[] sentences){
+        int maxNum =0;
+        for(String sentence :sentences){
+            String [] words = sentence.split(" ");
+            maxNum = Math.max(maxNum, words.length);
+        }
+        System.out.println(maxNum);
+
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
         System.out.println(lowerCaseVowels(a));
+        String [] sentences = {"i","am a","very","talented","person"};
+        countWords(sentences);
     }
 }
