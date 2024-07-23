@@ -10,5 +10,6 @@ public class StringBuilderInJava {
             a.append(ch);
         }
         System.out.println(a);
+        System.out.println(a.length());
     }
 }
