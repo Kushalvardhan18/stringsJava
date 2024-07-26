@@ -34,3 +34,4 @@ public class StringBuilderInJava {
         System.out.println(upperCaseStr(sc));
     }
 }
+// Integer.toString(int)
